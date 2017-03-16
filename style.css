@@ -10,22 +10,22 @@
 [class*="col-"] {
     float: left;
     padding: 15px;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 130%;
-    color: #00B2AF;
+    color: #006189;
 }
 html {
     font-family: "Lucida Sans", sans-serif;
 }
 .header {
-    background-color: #00B2AF;
+    background-color: #006189;
     color: #ffffff;
     padding: 15px;
     text-align: center;
 }
 h2 {
   line-height: 130%;
-  color: #00B2AF;
+  color: #006189;
 }
 .menu ul {
     list-style-type: none;
@@ -35,7 +35,7 @@ h2 {
 .menu li {
     padding: 8px;
     margin-bottom: 9px;
-    background-color: #00B2AF;
+    background-color: #006189;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -43,7 +43,7 @@ h2 {
     background-color: #0099cc;
 }
 .aside {
-    background-color: #00B2AF;
+    background-color: #006189;
     padding: 15px;
     color: #ffffff;
     text-align: center;
@@ -56,7 +56,7 @@ h2 {
 }
 
 .footer {
-    background-color: #00B2AF;
+    background-color: #006189;
     color: #ffffff;
     text-align: center;
     font-size: 20px;
