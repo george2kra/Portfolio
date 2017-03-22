@@ -1,7 +1,7 @@
 html {
     font-family: "Lucida Sans", sans-serif;
 }
-a:visited{
+a:visited, a:link {
   color: white;
 }
 h1 {
@@ -81,10 +81,13 @@ h1.h1front{ /* fixes the text positioning to stay within image frontcover */
   background-color: #006189;
   width: 280px;
   margin-left: 20px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .menuus ul {
 background-color: white;
+
 }
 
 .menuus li:hover {
@@ -95,7 +98,7 @@ background-color: white;
     padding: 8px;
     margin-bottom: 9px;
     background-color: #006189;
-    color: #ffffff;
+    color: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -132,7 +135,7 @@ background-color: white;
   .gkfront {  /* image resizes as the screen changes */
     display: block;
     margin: 0 auto;
-    width: 66%; /* image covers 66% of center screen */
+    width: 90%; /* image covers 66% of center screen */
     margin-left: auto;
     margin-right: auto;
     position:relative;
@@ -152,7 +155,7 @@ background-color: white;
     display: block;
     padding-right: 10px;
     margin: 0 auto;
-    width: 50%; /* image covers 70% of center screen */
+    width: 50%; /* image covers 50% of center screen */
      max-width: 400px;
     position:relative;
     height: auto
@@ -160,10 +163,18 @@ background-color: white;
   .codericons{
     display: block;
     margin: 0 auto;
-    width: 50%; /* image covers 70% of center screen */
+    width: 50%; /* image covers 50% of center screen */
      max-width: 800px;
     position:relative;
     height: auto
+  }
+  .menuicon{
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    width: 50%; /* image covers 50% of center screen */
+     width: 35px;
+    /*position:relative;*/
+    /*height: auto*/
   }
 }
 
@@ -201,13 +212,29 @@ background-color: white;
   .gkfront {  /* image resizes as the screen changes */
     display: block;
     margin: 0 auto;
-    width: 66%; /* image covers 66% of center screen */
+    width: 90%; /* image covers 66% of center screen */
     margin-left: auto;
     margin-right: auto;
     position:relative;
     height: auto
   }
-
+  .gkintro {  /* image resizes as the screen changes */
+    display: block;
+    padding-right: 10px;
+    margin: 0 auto;
+    width: 50%; /* image covers 50% of center screen */
+     max-width: 600px;
+    position:relative;
+    height: auto
+  }
+  .menuicon{
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    width: 50%; /* image covers 50% of center screen */
+     width: 40px;
+    /*position:relative;*/
+    /*height: auto*/
+  }
 }
 
 .spin {
@@ -215,8 +242,8 @@ background-color: white;
 	/* border-radius: 50px;     border-radius - 50% is circle */
   border-radius: 5px 20px 5px;  /* represents a dimond like like look */
   border: 2px solid blue; /* and border must exist together */
-  width: 85px; /* this value sets the circle width on x axis  */
-  height: 95px; /* this value sets the circle height on y axis-like an egg */
+  width: 65px; /* this value sets the circle width on x axis  */
+  height: 75px; /* this value sets the circle height on y axis-like an egg */
   animation-name: fliponY;  /* pointer reference to @keyframes spin */
   animation-duration: 4s;  /* rotates for ? seconds */
   animation-direction: alternate; /* alternate between clock and anti wise */
